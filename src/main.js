@@ -7,5 +7,4 @@ new Vue({
   render: h => h(App),
 }).$mount('#app')
 
-
-hello
+hello my name is mamaoxin
