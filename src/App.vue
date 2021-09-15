@@ -1,6 +1,8 @@
 <template>
-  <div id="app">
+  <div id="app" >
+  <keep-alive exclude="Detail">
     <router-view></router-view>
+  </keep-alive>
   <main-tar-bar></main-tar-bar>
   </div>
 </template>
@@ -17,5 +19,5 @@ export default {
 </script>
 
 <style>
-@import "./assets/css/base.css";
+@import "assets/css/base.css";
 </style>
